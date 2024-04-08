@@ -18,12 +18,24 @@ public class Portefeuille {
    * @param montantJetons
    * @return Vrai si la transaction a été effectuée, faux sinon.  
    */
-  public boolean transfertDevise (Portefeuille destination, double montantJetons){
-      /**
-           FONCTION À IMPLEMENTER
-	  **/
-      return false;
+  public boolean transfertDevise (Portefeuille destination, double montantJetons)
+  {
+      
+      if(this.monnaie != destination.getMonnaie()){System.out.println("monnaie invalide");return false;}
+      if(this.montant < montantJetons){System.out.println("le montant est invalide");return false;} 
+      this.montant -= montantJetons;
+      
+        destination.setMontant(destination.getMontant() + montantJetons);
+        System.out.println("Transfert de devise réussi.");
+        
+      return true;
   }
+
+  public void setMontant(double montant)
+  {
+    this.montant = montant;
+  }
+  
 
   /**
    * Cette fonction vous permet d'acheter des jetons de la 
@@ -32,10 +44,21 @@ public class Portefeuille {
    * @param montantEuros Valeur d'achat en euros 
    * @return true si le montant en euros est supérieur ou égal à 0 
    */
-  public boolean achatDevise (double montantEuros){
-	/**
-           FONCTION À IMPLEMENTER
-	**/
+  public boolean achatDevise (double montantEuros)
+  {
+    if (montantEuros >= 0) 
+    {
+        double achat = 0.0;
+        achat =  montantEuros / this.monnaie.getValeurDeJeton();
+        this.montant += achat;
+        System.out.println("Achat de devise réussi.");
+        return true;
+    } 
+    else if(montantEuros < 0)
+    {
+        System.out.println("Le montant .");
+        return false;
+    }
     return false;
   }
 
@@ -45,7 +68,8 @@ public class Portefeuille {
    * @param proprietaire
    * @return true si les nom du propriétaire est correct
    */
-  public boolean estProprietaire (String proprietaire){
+  public boolean estProprietaire (String proprietaire)
+  {
         return (proprietaire.equals(this.proprietaire))?true:false;
   }
 
@@ -59,15 +83,15 @@ public class Portefeuille {
   }
 
   public String getProprietaire() {
-      return proprietaire;
+      return this.proprietaire;
   }
 
   public Cryptomonnaie getMonnaie() {
-      return monnaie;
+      return this.monnaie;
   }
 
   public double getMontant() {
-      return montant;
+      return this.montant;
   }
 
   @Override
