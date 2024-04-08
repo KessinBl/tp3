@@ -21,12 +21,12 @@ public class Portefeuille {
   public boolean transfertDevise (Portefeuille destination, double montantJetons)
   {
       
-      if(this.monnaie != destination.getMonnaie()){System.out.println("monnaie invalide");return false;}
-      if(this.montant < montantJetons){System.out.println("le montant est invalide");return false;} 
+      if(this.monnaie != destination.getMonnaie()){return false;}
+      if(this.montant < montantJetons){return false;} 
       this.montant -= montantJetons;
       
         destination.setMontant(destination.getMontant() + montantJetons);
-        System.out.println("Transfert de devise réussi.");
+        
         
       return true;
   }
@@ -51,12 +51,10 @@ public class Portefeuille {
         double achat = 0.0;
         achat =  montantEuros / this.monnaie.getValeurDeJeton();
         this.montant += achat;
-        System.out.println("Achat de devise réussi.");
         return true;
     } 
     else if(montantEuros < 0)
     {
-        System.out.println("Le montant .");
         return false;
     }
     return false;
