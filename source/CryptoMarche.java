@@ -29,9 +29,15 @@ public class CryptoMarche {
 			FONCTION À IMPLEMENTER
         **/
 
-        for ( Portefeuille portefeuille :  )
+        double somme = 0.0;
 
-        return 0;
+        for ( Portefeuille wallet : portefeuilles )
+        {
+            if ( wallet.estProprietaire(proprietaire) )
+                somme += wallet.valeurEnEuros();
+        }
+
+        return somme;
     }
 
     /**
@@ -41,12 +47,17 @@ public class CryptoMarche {
      * @param monnaie
      * @return capital total en circulation de la cryptomonnaie (en euros).
      */
-    public double capitalMonneaie(Cryptomonnaie monnaie){
-        /**
-			FONCTION À IMPLEMENTER
-        **/
+    public double capitalMonneaie(Cryptomonnaie monnaie)
+    {
+        double somme = 0.0;
 
-        return 0;
+        for ( Portefeuille wallet : portefeuilles )
+        {
+            if ( wallet.getMonnaie() == monnaie )
+                somme += wallet.valeurEnEuros();
+        }
+
+        return somme;
 
     }
 
