@@ -51,9 +51,9 @@
 
 ***
 
-Compte Rendu TP3
+<h1>Compte Rendu TP3</h1>
 
-TP 3 : Travailler en équipe sur un dépôt github distant
+<h1>TP 3 : Travailler en équipe sur un dépôt github distant</h1>
 
 ***
 
