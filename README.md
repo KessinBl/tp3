@@ -1,214 +1,179 @@
-### I. Configuration de GIT 
-### II. Création d’un dépôt git sur une machine locale
-### III. Création d’un fichier texte README.md 
-### IV. Gestion de Version d’un programme Java 
+[I. Invitation dans le dépôt personnel](https://docs.google.com/document/d/1vbyo1WIwqGx7u5Ndw4zCkxUZmjVk0QkmKIOGDKjhB7k/edit#heading=h.jzn8la7eudfq)
+
+[1.Dépôt de travail d'équipe](https://docs.google.com/document/d/1vbyo1WIwqGx7u5Ndw4zCkxUZmjVk0QkmKIOGDKjhB7k/edit#heading=h.yxzlyh9tmpjn)
+
+[1.1.Acceptation de l’invitation d’athos dans le dépôt de travail](https://docs.google.com/document/d/1vbyo1WIwqGx7u5Ndw4zCkxUZmjVk0QkmKIOGDKjhB7k/edit#heading=h.aipm0fi0z2ue)
+
+[1.2 Clonage](https://docs.google.com/document/d/1vbyo1WIwqGx7u5Ndw4zCkxUZmjVk0QkmKIOGDKjhB7k/edit#heading=h.3cnperrz6dv)
+
+[2.Développement d’un projet java en équipe](https://docs.google.com/document/d/1vbyo1WIwqGx7u5Ndw4zCkxUZmjVk0QkmKIOGDKjhB7k/edit#heading=h.913kcosnu7cv)
+
+[2.1 Téléchargement des fichiers mis par athos sur le dépôt avec git pull](https://docs.google.com/document/d/1vbyo1WIwqGx7u5Ndw4zCkxUZmjVk0QkmKIOGDKjhB7k/edit#heading=h.ka5f3oesyehb)
+
+[2.2.Implémentation des méthodes transfertDevise et achatDevise dans la classe portefeuille.java](https://docs.google.com/document/d/1vbyo1WIwqGx7u5Ndw4zCkxUZmjVk0QkmKIOGDKjhB7k/edit#heading=h.uyzi8nkofn7y)
+
+[2.3. Code CryptoMarche implémenter par athos](https://docs.google.com/document/d/1vbyo1WIwqGx7u5Ndw4zCkxUZmjVk0QkmKIOGDKjhB7k/edit#heading=h.an61w1c127d6)
+
+[2.4.Exécution des programmes](https://docs.google.com/document/d/1vbyo1WIwqGx7u5Ndw4zCkxUZmjVk0QkmKIOGDKjhB7k/edit#heading=h.7y8wz0fzioz7)
+
+[III.Gérer de nouvelle fonctionnalité à l’aide des branches](https://docs.google.com/document/d/1vbyo1WIwqGx7u5Ndw4zCkxUZmjVk0QkmKIOGDKjhB7k/edit#heading=h.8nqq3wqvh5mt)
+
+[3.Tester le concept de branche avec un exemple simple](https://docs.google.com/document/d/1vbyo1WIwqGx7u5Ndw4zCkxUZmjVk0QkmKIOGDKjhB7k/edit#heading=h.sgyn7edavugr)
+
+[3.1 git log avec des paramètre pour plus de précision](https://docs.google.com/document/d/1vbyo1WIwqGx7u5Ndw4zCkxUZmjVk0QkmKIOGDKjhB7k/edit#heading=h.6ar4s9hojyln)
+
+[3.2. Création de la nouvelle branche test](https://docs.google.com/document/d/1vbyo1WIwqGx7u5Ndw4zCkxUZmjVk0QkmKIOGDKjhB7k/edit#heading=h.nh6c48gh0rco)
+
+[3.3. Création,ajout et validation du fichier test.txt dans la branche test](https://docs.google.com/document/d/1vbyo1WIwqGx7u5Ndw4zCkxUZmjVk0QkmKIOGDKjhB7k/edit#heading=h.2kndr54vpadz)
+
+[3.4.Retour sur la branche principale](https://docs.google.com/document/d/1vbyo1WIwqGx7u5Ndw4zCkxUZmjVk0QkmKIOGDKjhB7k/edit#heading=h.r8e5jheqk0o)
+
+[3.5 git log avec des paramètres pour voir les modifications](https://docs.google.com/document/d/1vbyo1WIwqGx7u5Ndw4zCkxUZmjVk0QkmKIOGDKjhB7k/edit#heading=h.2izdb3essq5x)
+
+[3.6. LA FUSION](https://docs.google.com/document/d/1vbyo1WIwqGx7u5Ndw4zCkxUZmjVk0QkmKIOGDKjhB7k/edit#heading=h.s5ilnvp4rcf3)
+
+[3.7 suppression du fichier test.txt](https://docs.google.com/document/d/1vbyo1WIwqGx7u5Ndw4zCkxUZmjVk0QkmKIOGDKjhB7k/edit#heading=h.a4u1cn4jxr1g)
+
+[3.8.Création de la branche PorthosCoins](https://docs.google.com/document/d/1vbyo1WIwqGx7u5Ndw4zCkxUZmjVk0QkmKIOGDKjhB7k/edit#heading=h.q7zhfnil2mq)
+
+[3.9 Implémentation de Crypto\_Marche.java](https://docs.google.com/document/d/1vbyo1WIwqGx7u5Ndw4zCkxUZmjVk0QkmKIOGDKjhB7k/edit#heading=h.3bnbljrwtaui)
+
+[4.fusion et synchronisation](https://docs.google.com/document/d/1vbyo1WIwqGx7u5Ndw4zCkxUZmjVk0QkmKIOGDKjhB7k/edit#heading=h.u793e0rb4cro)
+
+\
+\
+\
+\
+\
+\
+\
+
 
 ***
 
-Compte Rendu TP1
+Compte Rendu TP3
+
+TP 3 : Travailler en équipe sur un dépôt github distant
 
 ***
 
 Objectifs du TP 1
 
-Le but de ce premier TP est de commencer à se familiariser avec git. Plus précisément, nous allons apprendre.
+Le but de ce troisième TP est de commencer à travailler en équipe sur github et développer un marché pour le projet de crypto-monnaie que nous avions déjà lancé.
 
 
-# I. Configuration de GIT
+# I. Invitation dans le dépôt personnel
 
-## 1.Exercices
+## 1.Dépôt de travail d'équipe
 
-### 1.1 Paramétrage 
+### 1.1.Acceptation de l’invitation d’athos dans le dépôt de travail
 
-nom de l’utilisateur : 
+![](https://lh7-us.googleusercontent.com/CycBQxnX0ChUGdN_OtDxImliGI5StWErD5lZmYpo2wgi3li0suPEqMHeBHk4CtkEhQMtevJX-T_FpkjprScmvTB4mXFx3p6L1-y2pWL1iEKwwRn9WQfr7To7VjFQlCLaTVFPuHatXhc-U4SaUT0NmdE)
 
-![](https://lh7-us.googleusercontent.com/WipU_u6o_6XtzjsqWpUkjkIMe_z6P4V4YrNy1OK5RzZSVa6eeBeQY2XVJgecMjIvu2aTmyoCkrbI-p65Tc0jameCNxtAd2xH1dSfDEidH-2yrsxYRDOWkTeuzxSaKnXbF5NMt0ILcUCh_jVIt_m4DLE)
 
-email de l’utilisateur : 
+### 1.2 Clonage 
 
-![](https://lh7-us.googleusercontent.com/d4QNtflVqUXsLS3088sCzjOf4uDC0dfMOJ44RxVqrOjkB1XMzcVopgxF2VtZEkCUmchLXqDRzKeaTKdaMSoRAOrrq079MxduYGogNoyrWiojvmaJYluy0x6lrMITwdzca1i0b0Tc73q4z-NuqfLS80k)
+![](https://lh7-us.googleusercontent.com/nxbQUc82P3FEhN7_RB9G30Lq8I8Bvb1qD7Y4LNnaUckjZ73uASw-RNv-P3UZRpb84pd7cPbsdzAGGB7-aeGZnd5EwgNvEdnipeCRX-ptmenuz9YmtEI4-iInCxE0pl158EEbSMdQlRTky1JBcDPUesU)
 
-éditeur de texte de l’utilisateur :![](https://lh7-us.googleusercontent.com/vptqglsLFxr3amRIaPQzR4Taly92pHn07ZxktNvb4EOH_3ZxcqMiRGizDIHNQ0kpNK2iEZEY7cULMxE0b7orr6afl9RFdhUUSevFSrJRYpL8wyVuJY5VlU8rvXvdfvrAAtisabH8-RnY1hqgIBNdD1s)
+![](https://lh7-us.googleusercontent.com/W2jza8DhM-PRk_33qlhUPQs9k1A7nhPVPFEYWpUQHljPjye3BCWZMlKEFvbEDI4D9D90CKytB1dVsOOYt0tL_UedSMcOQeY3pG-u3aDQLvft2lLdKyWdTuNIKWRgsGOMUqlKNqODdZIUQNfYnlt8p7Q)
 
+![](https://lh7-us.googleusercontent.com/ZbWx73NxNBqJBVYCyaobp2Xsl3-PvyhWHXhTV-aE-cy4nCMg7xkV1h_uaqqUupJPeHrwvof7zod7HS5fPPY685Gov3w4pVi_c0uwoty4_KcDmBM5RuWLyKMnRfGctO67yrsw6IVyZA_hxzE2hGrWX00)
 
-### 1.2 Vérification
 
-![](https://lh7-us.googleusercontent.com/f-j6q--T3fVSBXS3OEob_t3x5mXkonEw_aZeAyR2tYp3lWEZPmltMMB3jaegUtiSkG_HaLsZVTQCqgYlQDstXKevj3mqGXlbmj2ExVcXXFLjhpgjgtpxcebuIjLpaRdMf7DGyTITA2cxEZ1Bmq9DlgE)
+## 2.Développement d’un projet java en équipe
 
+### 2.1 Téléchargement des fichiers mis par athos sur le dépôt avec git pull
 
-### 1.3 Vérification du nom de l’utilisateur
+![](https://lh7-us.googleusercontent.com/2pzQUNnl8JgVXDLa4HDCYqTrajYL2tkCFtVpJRKaudEJW_FGFwD8A5ClJKjUgDMDBiY_fG7DR_O10KjDND0S3RGO-oMryvUuWSHKM0IbVMunTzu9Zce_2j6lR-M4joodzv1EOYk7k2VcTZMs4toCQCU)
 
-![](https://lh7-us.googleusercontent.com/TB2BVO6YDF5juo3yZT-Chs_-yBzoVQUipyZshrOGorFptsQOQQq6ql1PBAUJGhVGXn3mSF9xQ2CEwjpGLmUQNvj-7G97aKThU-l_05DdY49EhkddmXlyXr8U6cHhc1u1oNkfUugElE4WsZxxAD2YTkc)
 
+### 2.2.Implémentation des méthodes transfertDevise et achatDevise dans la classe portefeuille.java
 
-### 1.4 Vérification de l’email de l’utilisateur
+implémentation de transfertDevise : ![](https://lh7-us.googleusercontent.com/Sq_Fs_B8oBjX2tGSHfC9X-MUyxc3FOr3qC9Hk-TAxta2Ll9pq61HUXkJpTkoN7PdvCcJrN0qkiGjiXjQQuCTQ7ls2_sgKhhc9I-rg1TgP171pGQtfRUBw7pDtvWyIwdwBC6N-jhuV-iCK5C3V_DS1dY)
 
-![](https://lh7-us.googleusercontent.com/NQFT5AnKn435q-v8yVFPDC6pCpuJ7wB7_sNYX1hYRi08c6a-8ZRj0a7UZJJ6I4PF0O2uXV-94ZHe6O3qmk3E_cdbi1DmcxvEmyservhnSG_XsdJke-Syrg-8APS9Me4dAj8N7QinXsE-vycw2oqvA3U)
+Création de la nouvelle méthode setMontant permetant d’affecter un nouveau montant au portefeuille de destination
 
+![](https://lh7-us.googleusercontent.com/soYYeys45ylO8t_u1XJ40kvP11v4zX4DlhgueqR4isO24gqOEU2h9GJnIO8axCsxZy_QNlsD6lvYYMjqMfFbB_2G3jvvxnSoybb67M4N3LqN99K7LcxcLpWbWjdrrXZfivgx8S1eTlUZApxEtJc519Q)
 
-### 1.5 Vérification de l'éditeur de texte de l’utilisateur
+![](https://lh7-us.googleusercontent.com/2W9qwRRZURtFj6gP6vNvNm334KTJWk7WNAl24HiTCzMA1Rw0Fi4mhNu5JXwWgwLljVQXVf13YP8SKDaYwpsbeP7SZr3sL-XF9NHaatoNeO4Nq0CNyiwNXOWOzIF4d6pE1lzghGrbJ-v_3IxInkZtKxw)
 
-![](https://lh7-us.googleusercontent.com/NQFT5AnKn435q-v8yVFPDC6pCpuJ7wB7_sNYX1hYRi08c6a-8ZRj0a7UZJJ6I4PF0O2uXV-94ZHe6O3qmk3E_cdbi1DmcxvEmyservhnSG_XsdJke-Syrg-8APS9Me4dAj8N7QinXsE-vycw2oqvA3U)
+![](https://lh7-us.googleusercontent.com/_9-zGM9pj8b38FNz9feQ7O7PJYuanZdbml3PA9eqOpP1Utxh_6zmRWNRzyUyhkFJO1f93GAugozq_JLzr5vc4d8flGYOHto2f8e0LfDGcwmuj3GmVqbmxR7Z1lMsNofB9VQ-9UClKdXOT73OgjZ2fz4)
 
+\
 
-# II. Création d’un dépôt git sur une machine locale
 
-## 1.Exercice 
 
-### 1.1 tree
+### 2.3. Code CryptoMarche implémenter par athos 
 
-![](https://lh7-us.googleusercontent.com/pckcfd4xbUOb528IfZ79oFVOb6BVzmKqAfJMsFBS2OUiiyQg89ht_b6OsDp4E_yeYI9wzDXtEZ_hD5Mt_KUbmvs10eURJqFaur6--mynVVhgoP_M1qsII65dCsxFtWwK5oAwXFW8v1ZzmjhwHb3yb2c)
+Implémentation de capitalEnEuros
 
+![](https://lh7-us.googleusercontent.com/40KfOBpMrIz6o-37nSzRGeScsXijnkhZ67jxzQyU7CECgUTJ56RNJPZYAy2VOoWgZDSc6AD8d0Ph4RpL2jvtqeb_P2PRwuXftCmE2J1O8AlFalEebElb4mNVcpTW_OTst4hbbr0TJmmI_Aj82d2Rn5k)
 
-### 1.2 pwd
+Implémentation de capitalMonaie
 
-![](https://lh7-us.googleusercontent.com/cRZ4MY5N-LIZVfUVDLI2BpGzgdE2_fOEOb7xuaw3uOZuXpEW6BGKYIz7gaoYi92icyVCnvoCWO1HgPpQUpBtVd__ldJebbPj9ByGCNYM1dhTz_aE3j8JxGGszFcyOAVimGei0HeARrdNwcnoKM8mk-A)
+![](https://lh7-us.googleusercontent.com/Afot8meK9UyDWoP8zWOy9shHA0iqixgcjyi8Ge7kNfO3gHHODjdKkcC1rHAbXylHp2UwmFFv1N1Tv3s4ro6TLaj1uFKVHhR9J_-2cqCTY5OM8hbgHXLdfLtaHmdVkLcObBVpqOIhJuyOV2bOWhM1It4)
 
 
-### 1.3 git init
+### 2.4.Exécution des programmes
 
-![](https://lh7-us.googleusercontent.com/inwblL2rZI3VeWjN5uAEZvIJooSy_6ymAWyuDz40S2jEYWLTs3EUs4HuuAsnGK9003fH5pleCRDGyK82SwHLCL6vMlmeon6aY8APmZMxZkite2Skw9PY8cntAq__hDWAr_XQ43R5G8eDDAbabCfhViU)
+![](https://lh7-us.googleusercontent.com/jDXc4tfAjRI3mwHr_C5WsgpF25Q_t9gky58GNMSqc5y18-ezJ9FkfENoynChugw8Y0EdtjEWSWqlmNt7woEhvvfTNrogFY0FWLvwZvFaQUXu5aKAyTlD67-wY52eEUZ9G-a--6bqw7Qczl1_xCbazZU)
 
 
-### 1.4 ls -a
+# III.Gérer de nouvelle fonctionnalité à l’aide des branches
 
-![](https://lh7-us.googleusercontent.com/vsu_h33njDn6GV91M_Sb-5HhDtqLm9Tq026gTKzqcxzm008kys6_HR-k7yVTy_MkB7k5yurieihRYUMO4oWG2lyi7tt4PSb3Jnt79sMvO_KT6nL7hHgrPoyrlescNopnV5KCxqtpYadFaz4G77jhXFw)
+## 3.Tester le concept de branche avec un exemple simple
 
+### 3.1 git log avec des paramètre pour plus de précision
 
-### 2. La commande git status
+### ![](https://lh7-us.googleusercontent.com/_rX-9NMrOuIpgfheuVzDFvdZ7sxXo-J4Tk7gCsZxSP8-cpU9ZMA90BjI31DCJG-3wIMrHQLuJnCJbCvfrhOifJLUYGaVLcRsZpB7IY5UukJBMGZrn1yVDT21E9uyUQuvgQ_lsGQwZqq-O6Zz7jr4ew8)
 
-![](https://lh7-us.googleusercontent.com/YB5QZICNdnMsbsW7UPcAXDaFyy6xqUnFKlKvwOdjjDxK97py5dIiN75oyfbvpLrNnUSTD864MZ9dX0MNviyZ_aDdiyssRYiJ1R8D8L8b5vsv8K3IOo8W--L3To67sTMWR0aZOy6cctM309gzJR5pl1s)
+### 3.2. Création de la nouvelle branche test
 
+![](https://lh7-us.googleusercontent.com/d7NQdSZF7xPf5dnd8U3CJ9OxvOTkOXLo9AnnIUKiW3gUPYhEsLt9x-qm7l58uCqdS4etf-OwGjSvBcb9ojpwfQSRImNvhUkdHOHQeX6Hkncz9YNl-Zuq8yCVyT3rGvw9qXG0ywWah_HVlpnU19-mlA8)
 
-# III. Création d’un fichier texte README.md
+![](https://lh7-us.googleusercontent.com/OBzxUpYMJ7sQ-L-BlycsRjVDunCh77r7QVROIWd5RSuI8dUrxJSIzOBY6tyOExK2DNwkbBak4MoGDEem6rImkM744ZoD9-dvHQPB0Ll2rZGD4s5W4SZk9LUHBPdX194lz69Dh3cxgTJyuFq6KI1Dihw)
 
-## 1. Gérer les différentes modifications du fichier README.md
 
-### 1.1 Creation du fichier “README.md”
+### 3.3. Création,ajout et validation du fichier test.txt dans la branche test
 
-![](https://lh7-us.googleusercontent.com/FSISLQ95JmttXkM798dA_84Zu8YnjNPBGSnSy1XKisyEInJY-r8LhXttDkBOKha821AQYkuvLerTuRMTE-U7UxnZnpsNjobTGPY4GoKpPWcJdsBej5IW9jesOZI5InDUqAiD37OKptr4gsvrAPbw7lA)
+![](https://lh7-us.googleusercontent.com/7qaPVjZZsTwWQ1xAdcXeEPJhZ5Rvcm7Tx4yAaCzKp2EIqwdz3gGvtd0_Mn3_bx09rrzqUiuLTeFPMQVN1KxAeMxHyv4lrW8GKKgC7Mw2uBmTUe9VrAoOUsc5Nj74k5RaBpabMI1XxdDWNFAN9VszwQg)
 
-1.2 Vérification du fichiers à inclure dans le dépôt git
+![](https://lh7-us.googleusercontent.com/SXc4x4_ysu91z6K8XPGKNoHFNDqdQOtwN9yjax5-WJi71D0CrP38bc1gRoywCXExJNDW5Ji24Vo_zdhqtM1U3nOY1y8_ySBWUpMOXKxhhukR0hfWb7CRpF4mUjqMyOk8_bX2Y1TZFo4xw2JqPpVWQPY)
 
-![](https://lh7-us.googleusercontent.com/9Vqn_0NcfvFn2soeEXBD7VQHj23Cjn0SPv0ChNUMF_p-WIfhH8Lb3vssUzgs_V9Ow6v6sIXRorjE7eJXX4Z4XbuTr-McZgleDseAI0cILBEr8sUhpevdhca8OZrer3ZyFvk_16YjLNF_HBChyMlrBj8)
 
+### 3.4.Retour sur la branche principale
 
-### 1.3. Ajout du fichier dans le dépôt git
+![](https://lh7-us.googleusercontent.com/M9hy5BoIry2VraPUqZn1EaqCp2DoEEDne6dMii6ypI1rZBS0ihwCwYU-CfhywRsFaGuepUJG5xd8nSH3s4zVQD679fVBCMSkGylyUz97c07Jj_LUPFXmWnsUVGhVEu14urr57UuJLRmMsZF0qCB5CXU)
 
-![](https://lh7-us.googleusercontent.com/Jw5QS_C_yO-I8fHF6bm2-lD77G8nDqEeeyIjdbUwYo9qBw06HRiRe5R4M57mKdoarXhgw1PgrD1sBQahwiNyWiSOuhl5i6gOCoQzggCr74407RO_0dIYOgWIYEh9PL6JJWHxictRCaJ4Tj-hWKYrmMc)
 
+### 3.5 git log avec des paramètres pour voir les modifications
 
-### 1.4. Enregistrement du fichiers dans le dépôt git
+### ![](https://lh7-us.googleusercontent.com/_rX-9NMrOuIpgfheuVzDFvdZ7sxXo-J4Tk7gCsZxSP8-cpU9ZMA90BjI31DCJG-3wIMrHQLuJnCJbCvfrhOifJLUYGaVLcRsZpB7IY5UukJBMGZrn1yVDT21E9uyUQuvgQ_lsGQwZqq-O6Zz7jr4ew8)
 
-![](https://lh7-us.googleusercontent.com/q7pep9uwMXO4k35er8LXt8oFLU6sH5jz45UoKbwxTZa7gCU8oMP8QhyM9OMCtf7yAO1sju9WVK32ItpU9g5tJqu81Z_JBQyFxks77ZIWQLxUU2z-5wH9ZWpujwgN-ZF41nOVBZ37uX1XiUEpjudV7Rg)
+### 3.6. LA FUSION
 
-cela montre que le fichier à bien été enregistré
+une fois sur la branche principale , la fusion des deux branche avec la commande git merge test. voici le rendu du git log avec les paramètres.
 
-![](https://lh7-us.googleusercontent.com/9q20Okc7qnc1wD5uIqpiM0Qo6gA_IOXkI_kgR0mGpPs4Q5hCEkpNSOQ9W5cUv611z8CvlDpr2wpTH4GOVwdjBq715IWuU_l7v88nx9bLD2-b3zbCmmpvDrD94VfB1ohvT99RKfWiCQxcWv73IoGlWMI)
+![](https://lh7-us.googleusercontent.com/sjb8DsVOhAYhthZ_M88D9pUQp7qRMBchtHroLqym4s0Coyb4fA7og90VndZ7JB32CO6PAlroAWnx25Z9THXl8C7TCotZPdyFXJ_np9ee7jxjQygyEdABTMl1i0FG61Wnq6fC0opS2UX8fZeY6okjCk8)
 
+![](https://lh7-us.googleusercontent.com/6rNawvufL80vTvYosSZTNelpYVruQQHtyOyMguNvE-_N-QDvmM1lkJtktcKBlHBxhlog5SGG3k3sa7mdjzcPIzw55QPPafuLA1a0Ee85IS9XGa8Tw7esHVppSi0Rh-nsMBRjhI8QQhaY3lDRpWdH_10)
 
-### 1.5. Affichage du journal des différentes versions
 
-![](https://lh7-us.googleusercontent.com/iOlbUKsUa7jERIBpEJNpTKuYPmkOn4kcr6YkeStTCXYg12W1a1HJZIzBVbZYx04pgjgVIeEdZFF9DH1fvxfb9tJn0CORvHHaEiLV0cvms0B5ieKNdhNxNs_x14stCzcQKGKpjG7Rdt1gbuOTKlZNhz8)
+### 3.7 suppression du fichier test.txt
 
+![](https://lh7-us.googleusercontent.com/Kxxh_Cy72c63CW6KfEEuyP1uDHzD6tov19WKhCKZAnf4niVBwEseUrrAOiXIj1ls0LY2kCOopIoE9q8nEwt17oJrUBpnN_Zep7culR18EWqnL1SQ7mjeyojduqklbZ9c1iGXtyif3X2xJif-8PdKs_g)
 
-## 2. Différencier 3 états / 3 zones / 3 actions
 
-Pour mieux comprendre le fonctionnement de git, c’est intéressant de distinguer la différence entre état, zone et action. Voici un petit résumé :
+### 3.8.Création de la branche PorthosCoins
 
+![](https://lh7-us.googleusercontent.com/pbbhl5G1TuzaerGuxBaG0xiUmNUESG0Jz3AkNq96Tq5FfY5GfPFXOkbOq_OOkAMOify9E3zlzmzRGnzalIk67u9Adn1VuNWFTGdTEwKG6ZTq5Gd6DlYeZ2Rg_VVtTOelrJxpaJH6lNmdRvkPgObUQCY)
 
-### 2.1.Dans un dépôt GIT un fichier peut avoir 3 états différents :
 
-- Modifié (modified): il a des modifications locales, il va falloir le sélectionner (stage) pour ensuite valider (commit) ses modifications.
+### 3.9 Implémentation de Crypto\_Marche.java
 
-- Sélectionné (staged): ses modifications ont été sélectionnées (staged) pour être validées (commited).
+![](https://lh7-us.googleusercontent.com/W970DJHNgbCJDE5pvtipOIsgOI0TPFlyq0kLfXc9QV2vgvglcF1Umnofb6fFXpBYYTelAC2QU8ZOYcQikC0ghHdidvXvEtXSgyZed9yPyh1s74Bsliq3HK9KSRlf5141b9VdFOSBeGRKnK4hKSpCoFM)
 
-- Validé (commited): il est synchronisé avec le dépôt et ne requiert pas de validation.
 
+### 4.fusion et synchronisation
 
-### 2.2. Ces états correspondent à 3 zones dans un GIT :
-
-- La copie de travail (directory), c’est le système de fichier local, zone où les fichiers sont modifiés.
-
-- La zone de sélection (staging area).
-
-- Le dépôt où les modifications sont enregistrées sous forme de validations (commits).
-
-
-### 2.3. Le passage entre ses 3 états se fait par 3 actions:
-
-- Sélection (stage) qui sélectionne les fichiers pour la validation(commande : `git add`).
-
-- Validation (commit) qui crée le commit et l’envoie dans le dépôt (commande: `git commit`).
-
-- Récupération (checkout) qui récupère un instantané (snapshot) depuis le dépôt vers la copie de travail (commande : `git checkout`). Nous verrons cette commande plus tard.
-
-
-# IV. Gestion de Version d’un programme Java
-
-## 1.Création du dossier source et édition du fichier Cryptomonnaie.java
-
-### 1.1 Création du dossier source et du fichier Cryptomonnaie.java
-
-![](https://lh7-us.googleusercontent.com/Y-sGb0X1m1wJgBYjHuDuY_eDYMS9RM-oxFoU9mB0SmeUlL8xrsSEyUZOG2qbDCTf5icJpG3Ly68K2jtC44SsFXDlbXXDyVTi2oDLF4twQ8yaQIf4uwpho5kxplCd7jNq8ujckcsCV6JPZUl4epLA0aY)
-
-
-### 1.2 Edition du fichier Cryptomonnaie.java
-
-![](https://lh7-us.googleusercontent.com/TXH-WS0UkMqazzcgUAYwnHdEj2jNP6Qdpq-waMtocSzgljMdWI0dOvfk0qo3qV2hTD9KQbXnzeUA9gSKzLMf_lIfeK6OctiAzPHERN4GftixDXwznAa2diC9f2Z1QvfcZUfdeDOSwS-vGJbIrqwdmQ4)
-
-
-### 1.3 Ajout du fichier Cryptomonnaie.java au dépôt git
-
-![](https://lh7-us.googleusercontent.com/feGpGocsbOh2hPsgelrd_UcZd0HS8hih9vNupEb44rreQx6if6AeHwe970G1LNeB1SNgDfDkjPjPNRR2MGZ6G6zgUbOBbu1DjT6sKiKJ2pJY-ATUrLySPHQ3bGNjZvEArQ5U7Jo_lGQZyjP6LJZa-Rk)
-
-![](https://lh7-us.googleusercontent.com/uLcV6EYNeevDHmS0mOWn9-mIijNorEIgbRukylNFhrOG0VbMmMXNfrNtKA2QaFbgDfW77tG4VypE-yidxz0Mfy9L--bCKkp4OOWqHM0X5QVpeYdd5p6RFa8SOc9GUxxW--eXnzbaGNiFi7gypnBsRtE)
-
-
-### 1.4 Validation du fichier dans le dépôt git
-
-![](https://lh7-us.googleusercontent.com/54CBXFXYbrQSSMuvqvmVloiA17r5YJ8XGs4LRkGATSCV32c69CqhumrZiGT9JYAmC1iQeyHKvs6W7W_ZY4Q1DMyioGluXMRbEyIqn24OmCHEXwbXU1DcWODlwfSt4XtvdAEkwL1MxjEJA6aTzmO-CB4)
-
-![](https://lh7-us.googleusercontent.com/tkQMlGrUU_THgmIhtsftnPBY8rs7hXRxqu_o_j23KpgffjgCYQ3snsS9mGgWFUyF90TV3lLQ7SH7Fn4s2DjQIFoxJiphyvFfZipW0G-99RrZZJlyFV4T4NQTuFXobj-N1DaIKGOPmKzvo0yrM46uTww)
-
-
-### 1.5 Affichage du journal des Versions
-
-![](https://lh7-us.googleusercontent.com/slpLteoenmiOwUMmGgPuWaaFcJRzxRsgyI-A5tqaOqCBW4eYXW95uUpfX3__Gw16w2SGmfocU-cupbpVYJidaLlxlZPDihzScVREzDFaev9J55aPiQunxKyVJURgQgIkarKvPWLLFJ8IMAlpubFbv88)
-
-
-### 1.6.Compilation du fichier Cryptomonnaie.java
-
-![](https://lh7-us.googleusercontent.com/jmkL_ZaNfeO4aosCBppPF_8cO4M9ldAgOgSaaVIYIblxx9FMW4nh3aviFPwTUlC3AxM0VILMuttjynoG4Rfle6pxbbwiYvNpT695YpQPfbPmnf8ypDTV3K6ANoi7PywYj8jPzIBQFKmcRgBBuOHDEa4)
-
-![](https://lh7-us.googleusercontent.com/A0Kan-gFJZ1TnLInF2uyX65cPe6tpKa6i9FGRLLHYIeipX1CyouijhMcanDwUPK8y6rSAFrBOUntXUmYNm7agYOsi1CzqUdOAtpX6Bj6759Jy0FNVRHq15Pa0bPCpdr2OTjYCteu2TKNkmwhe5lluDA)
-
-
-## 2.Création du fichier .gitignore
-
-![](https://lh7-us.googleusercontent.com/x8M-zWbZ6HMjv_5MDUQZRDeXe02rVZ_UgB-2SlRCXIwe6-0C1cSeUCwn17En_QFzuEQ45Xppnta54XRbzQQ5TpSVqYKPh0zmo7ZlL3rDMQ2vkCvdZIAIa6p1MvNq8Iiomao2CFj0Vc_R06sfqj-HGSs)
-
-Quand on tape la commande git status on remarque que le fichier Cryptomonnaie.class n’est toujours pas sélectionné
-
-
-### 2.2 Edition du fichier.gitignore
-
-![](https://lh7-us.googleusercontent.com/WDWil-oFDx0xklbha6mWJYtVn6TCMPCc6quJ6DQJEBSa1Il33RFIUc1wjVJf_HUt-zlMkdgVV4s3e__cbrftR422-_JXmNZxoghMKA_BPAdPJ32Eif3HhirReelFlIw-S_FJraZ5VNrAfzAkNviDLAk)
-
-
-### 2.3.Ajout puis validation du fichier .gitignore
-
-![](https://lh7-us.googleusercontent.com/xTQZhNQR1wetUyCQfXtJbD__eMY3TtvIc_XAkyj5YHSfX2HrXAIFQ2H9EjLK3t-RRKtd1O8Z0A6GscaW9jT-xlzupWjkYHFUGYp5CgIrObZNvDZQ70AFdSwCLkrpODi8VOZVt7looKBvyTIpw0-NTOo)
-
-![](https://lh7-us.googleusercontent.com/lVFPUa-lhbmN4n64hbfUHAEbJMmeIKfBbOaVl8CzT6PIlH73EfL5TvtqrlpIKg_AcmBwJuRnuVK6fufD36YEPtavZ6cjyFRUyx-pLEWhLVqmuUyZkrVA6Lo4IQEmmz7hJjSv1HLjyvxL5z-rnTlkn74)
-
-
-### 2.4.Ajout de nouvelle ligne dans le fichier .gitignore
-
-![](https://lh7-us.googleusercontent.com/E39oBWFO4-ZbXL3T6VLPlywjP2CZMj3ju1e39sSeKYkL5PGseocp3LCN7OlEVvKhAoGHN_v1iPkW3miz6MQhj6_OjYojt_vR0h9Yp1lampT6Tl9qlB5ISdVhO-lRD0G9O6t9ut5-tCRHQiYduUmywJM)
-
-![](https://lh7-us.googleusercontent.com/xU9ge2S0ECUe4dViNplrBcPvZms1UIJQDfZSUwLlvdj-vWjlJaLVXpcFjrrk7CAhxNbTZJ04v1r3oXr6Huk_gJkvMLHQoeL5j9jhbUHjWCzvpvWnfB5CVM9lljy4JsDCHZXSerDOdxAuy8q5c6IuZuI)
-
-![](https://lh7-us.googleusercontent.com/TCOx6KR9odceoCNxUGOZ7KRwBdd5hsOzi8--NdiADwbH2dvuoo38NHt1VcA1NDPiegrLXmBSsJMyTHheNoQ5rpzW7BqOxHIxG5pSNCTod3-CXV2afFZ832w7nKK7zNsf9bcX7R3xLq2bgzk3NSUEbCc)
-
-![](https://lh7-us.googleusercontent.com/qTDRD_L6xNrsNXcNDYXkEi-J8c6lJGqUv70nZAY-BTsBLYSQ93xbcCALh9hbB_awEzvocbWMKbPBpKJIIGWhkrx2pf7qdgxud47j3CzpdLm7GidvoESeYxp1qlPR0Babhsbd8-_LfvECyYmvg06wxnk)
+![](https://lh7-us.googleusercontent.com/ZY9o3BRDqwObdEUd9HeHne2RwUqIRSeQusM2QKrPi5oZIAIf2X0eF1cDAK4PElwN5rCLy2__dnca_6eIcaj7MKiIci9tXFld2DZ6WeWu8KKL5Y3agdx0TyRnxwtW7po-IxlnJllP73paJZByeMmQi6s)
